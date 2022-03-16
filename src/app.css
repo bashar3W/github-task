@@ -1,0 +1,45 @@
+body {
+  background: #f6f6f6;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.wrapper .inner_part {
+  width: 500px;
+  height: 400px;
+  margin: auto;
+  background: #fff;
+  box-shadow: 0 5px 5px 0 rgb(82 63 105 / 5%);
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+.wrapper .inner_part input {
+  width: 450px;
+  padding: 10px 8px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  outline: none;
+}
+
+.wrapper .inner_part .user_info .user_details img {
+  width: 200px;
+  height: 200px;
+}
+.wrapper .inner_part .user_info .user_details .user_name {
+  margin-top: 20px;
+}
+.wrapper .inner_part .user_info .user_details .user_name a {
+  font-size: 20px;
+}
+.wrapper .inner_part .user_info .not_found {
+  font-size: 25px;
+}
+
+.wrapper .inner_part .user_info h1 {
+  font-size: 25px;
+  font-weight: 600;
+}
