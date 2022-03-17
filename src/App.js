@@ -58,7 +58,7 @@ const GetUserProfile = ({ user, getUserDetails }) => {
   };
 
   useEffect(() => {
-    getUserDetails("Himanshu3w");
+    getUserDetails("bashar3w");
   }, [getUserDetails]);
 
   return (
